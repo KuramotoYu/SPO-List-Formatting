@@ -1,0 +1,162 @@
+    {
+        "hideColumnHeader": true,
+        "hideSelection": true,
+        "rowFormatter": {
+          "elmType": "div",
+          "style": {
+            "width": "50%",
+            "margin": "10px 0px 10px 20px",
+            "padding": "0",
+            "border-style": "none"
+          },
+          "children": [
+            {
+              "elmType": "div",
+              "attributes": {
+                "class": "ms-bgColor-themeLighterAlt"
+              },
+              "style": {
+                "display": "block",
+                "flex-direction": "column",
+                "box-shadow": "2px 3px 5px gray"
+              },
+              "children": [
+                {
+                  "elmType": "div",
+                  "attributes": {
+                    "class": "ms-bgColor-themePrimary ms-fontColor-white"
+                  },
+                  "style": {
+                    "display": "block",
+                    "height": "50px",
+                    "width": "300px",
+                    "padding": "10px 5px",
+                    "box-sizing": "border-box"
+                  },
+                  "customCardProps": {
+                    "openOnEvent": "hover",
+                    "directionalHint": "rightCenter",
+                    "isBeakVisible": true,
+                    "formatter": {
+                      "elmType": "div",
+                      "style": {
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "width": "400px",
+                        "height": "100%"
+                      },
+                      "children": [
+                        {
+                          "elmType": "a",
+                          "txtContent": "[$DispName1]",
+                          "attributes": {
+                            "target": "_blank",
+                            "href": "[$Url1]",
+                            "class": "ms-fontSize-s ms-fontWeight-bold"
+                          },
+                          "style": {
+                            "font-size": "15px",
+                            "color":"#323130",
+                            "padding": "15px 0px 15px 0px",
+                            "width":"90%",
+                            "border-bottom":"2px dotted #F3F2F1",
+                            "text-decoration": "none",
+                            "display": "=if([$DispName1] == '', 'none', '')"
+                          }
+                        },
+                        {
+                          "elmType": "a",
+                          "txtContent": "[$DispName2]",
+                          "attributes": {
+                            "target": "_blank",
+                            "href": "[$Url2]",
+                            "class": "ms-fontSize-s ms-fontWeight-bold"
+                          },
+                          "style": {
+                            "font-size": "15px",
+                            "color":"#323130",
+                            "padding": "15px 0px 15px 0px",
+                            "width":"90%",
+                            "border-bottom":"2px dotted #F3F2F1",
+                            "text-decoration": "none",
+                            "display": "=if([$DispName2] == '', 'none', '')"
+                          }
+                        },
+                        {
+                          "elmType": "a",
+                          "txtContent": "[$DispName3]",
+                          "attributes": {
+                            "target": "_blank",
+                            "href": "[$Url3]",
+                            "class": "ms-fontSize-s ms-fontWeight-bold"
+                          },
+                          "style": {
+                            "font-size": "15px",
+                            "color":"#323130",
+                            "padding": "15px 0px 15px 0px",
+                            "width":"90%",
+                            "border-bottom":"2px dotted #F3F2F1",
+                            "text-decoration": "none",
+                            "display": "=if([$DispName3] == '', 'none', '')"
+                          }
+                        },
+                        {
+                          "elmType": "a",
+                          "txtContent": "[$DispName4]",
+                          "attributes": {
+                            "target": "_blank",
+                            "href": "[$Url4]",
+                            "class": "ms-fontSize-s ms-fontWeight-bold"
+                          },
+                          "style": {
+                            "font-size": "15px",
+                            "color":"#323130",
+                            "padding": "15px 0px 15px 0px",
+                            "width":"90%",
+                            "border-bottom":"2px dotted #F3F2F1",
+                            "text-decoration": "none",
+                            "display": "=if([$DispName4] == '', 'none', '')"
+                          }
+                        },
+                        {
+                          "elmType": "a",
+                          "txtContent": "[$DispName5]",
+                          "attributes": {
+                            "target": "_blank",
+                            "href": "[$Url5]",
+                            "class": "ms-fontSize-s ms-fontWeight-bold"
+                          },
+                          "style": {
+                            "font-size": "15px",
+                            "color":"#323130",
+                            "padding": "15px 0px 15px 0px",
+                            "width":"90%",
+                            "text-decoration": "none",
+                            "display": "=if([$DispName5] == '', 'none', '')"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "children": [
+                    {
+                      "elmType": "div",
+                      "txtContent": "[$Title]",
+                      "attributes": {
+                        "class": "ms-fontSize-s ms-fontWeight-bold"
+                      },
+                      "style": {
+                        "padding": "5px 10px",
+                        "font-size": "15px",
+                        "overflow": "hidden",
+                        "text-overflow": "ellipsis",
+                        "white-space": "nowrap"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
