@@ -7,3 +7,4 @@
 It looks like this when comparing before and after the change.
 Just apply the JSON in "Formatting the view" and you're done.
 No other special settings are required.
+
