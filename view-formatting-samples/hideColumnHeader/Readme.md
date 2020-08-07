@@ -8,3 +8,4 @@ It looks like SampleImage.png when comparing before and after modification.
 Just apply the JSON in "Formatting the view" and you're done.
 No other special settings are required.
 
+![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hideColumnHeader/image.png)
