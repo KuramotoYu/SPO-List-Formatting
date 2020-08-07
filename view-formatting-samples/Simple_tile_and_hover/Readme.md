@@ -3,6 +3,8 @@ SharePoint のリストで「タイル―ビュー」でのみ適用すること
 タイルにカーソルを合わせると、タイトルの全文がポップアップ表示されます。
 タイルをクリックすると、設定したURL先のページが別タブで表示されます。
 
+![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/Simple_tile_and_hover/image.png)
+
 この書式設定に必要な列は3つです。
 
 |列 内部名|列の種類|入力値|用途|
