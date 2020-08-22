@@ -1,7 +1,7 @@
 リストアイテムにカーソルを合わせると関連付けられたリンク集をドロップダウンで表示します。  
 ドロップダウンで表示されたメニューをクリックすると、設定したURL先のページが別タブで表示されます。
 
-![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hover-popup-format/image.png)
+![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hover-popup-format/images.png)
 
 この書式設定に必要な列は下記の通りです。（全部で11個）    
 メニューとして用意できるリンクは最大５個です。  
