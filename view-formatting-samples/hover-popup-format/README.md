@@ -9,6 +9,8 @@
 |Answer|1行テキスト|ポップアップに表示する詳細を入力|ポップアップに表示する詳細|
 |AnchorText|1行テキスト|ボタン名を入力|ボタン名|
 |URL|1行テキスト|URLを入力|ボタンをクリックした時の遷移先|
+  
+書式設定の適用前と適用後は以下のようなイメージとなります。
 
 ![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hover-popup-format/images.png)
 
