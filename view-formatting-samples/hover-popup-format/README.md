@@ -13,7 +13,7 @@
 書式設定の適用前と適用後は以下のようなイメージとなります。  
 上記列を用意し、ビューの書式設定にjsonファイルのソースコードを適用することで実装できます。  
 
-![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hover-popup-format/images.png)
+![サンプルイメージ](https://github.com/KuramotoYu/SPO-List-Formatting/blob/master/view-formatting-samples/hover-popup-format/image.png)
 
 
 -----------------------------------------------------------------------
