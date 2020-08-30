@@ -1,0 +1,44 @@
+{
+    "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+      "elmType": "div",
+      "attributes": {
+        "class": "ms-bgColor-themeLighterAlt ms-fontColor-white--hover"
+      },
+      "style": {
+        "display": "flex",
+        "align-items": "stretch",
+        "flex-grow": "1",
+        "justify-content": "space-around",
+        "margin": "0px 16px 8px 0px",
+        "float": "left",
+        "max-width": "200px",
+        "border-radius": "15px"
+      },
+      "children": [
+        {
+          "elmType": "a",
+          "attributes": {
+            "href": "[$URL]",
+            "target": "=if([$TargetBlank] == true, '_blank', '')"
+          },
+          "children": [
+            {
+              "elmType": "img",
+              "attributes": {
+                "src": "[$FileRef]"
+              },
+              "style": {
+                "width": "200px",
+                "height":"200px",
+                "box-shadow": "8px 8px 8px gray",
+                "border-radius": "15px"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
