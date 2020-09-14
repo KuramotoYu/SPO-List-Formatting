@@ -22,7 +22,7 @@ The file name is the default column, so you don't need to add any columns.
 The image of "file name" is displayed as a banner, and you can transition to the link set to "URL".   
 By setting "TargetPlank" to "Yes", you can display the linked page in a separate tab.  
   
-|列名|列内部名|列種類|
+|column name|internal name|Type|
 |:-----------------|:------------------|:------------------|
 |FileName|FileRef|Established|
 |URL|URL|One-line text|
